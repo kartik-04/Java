@@ -1,4 +1,4 @@
-package BuilderPattern;
+package design_pattern.BuilderPattern;
 
 public class Student {
     private String name;
@@ -10,5 +10,7 @@ public class Student {
     private int gradeYear;
     private String phoneNumber;
 
+    public Student(Builder builder) {
 
+    }
 }
