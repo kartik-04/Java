@@ -1,9 +1,9 @@
-package AdapterPattern;
+package design_pattern.AdapterPattern;
 
 public class YesBankAdapter implements BankAPI{
-    private YesBank yesBank;
+    private AdapterPattern.YesBank yesBank;
 
-    public  YesBankAdapter(YesBank yesBank) {
+    public  YesBankAdapter(AdapterPattern.YesBank yesBank) {
         this.yesBank = yesBank;
     }
     @Override

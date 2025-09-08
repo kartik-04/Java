@@ -1,4 +1,4 @@
-package AdapterPattern;
+package design_pattern.AdapterPattern;
 
 public class PhonePe {
 

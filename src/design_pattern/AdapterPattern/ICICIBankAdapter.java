@@ -1,4 +1,6 @@
-package AdapterPattern;
+package design_pattern.AdapterPattern;
+
+import design_pattern.AdapterPattern.Bank;
 
 public class ICICIBankAdapter implements BankAPI {
 
