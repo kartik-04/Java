@@ -10,7 +10,9 @@ public class Client {
         builder.setBatch("MWF");
         builder.setUniversityName("Scaler");
         builder.setId(20);
+        builder.setGradeYear(2022);
 
         Student student = new Student(builder);
+        System.out.println("Debug");
     }
 }
