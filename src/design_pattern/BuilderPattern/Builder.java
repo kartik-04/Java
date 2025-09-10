@@ -73,4 +73,8 @@ public class Builder {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public Student build(){
+        return new Student(this);
+    }
 }
