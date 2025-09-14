@@ -6,7 +6,7 @@ public interface BankAPI {
 
     boolean pay(double amount, String account);
 
-    double checkBalance();
+    double checkBalance(String accountNumber);
 
     void transferFunds(double amoutn, String srcAcc, String destAcc);
 }

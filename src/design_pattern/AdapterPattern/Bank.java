@@ -10,6 +10,9 @@ public class Bank {
         this.accountHolderNumber = accountHolderNumber;
     }
 
+    public Bank() {
+    }
+
     public String getAccountNumber() {
         return accountNumber;
     }
